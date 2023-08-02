@@ -1,0 +1,2 @@
+# ColorSensorPeripheral
+stub

@@ -11,9 +11,9 @@
 		D1EDDC8D2A78D7C30092E7CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDDC8C2A78D7C30092E7CC /* ContentView.swift */; };
 		D1EDDC8F2A78D7C90092E7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EDDC8E2A78D7C90092E7CC /* Assets.xcassets */; };
 		D1EDDC922A78D7C90092E7CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EDDC912A78D7C90092E7CC /* Preview Assets.xcassets */; };
-		D1EDDC992A78D80C0092E7CC /* PeripheralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDDC982A78D80C0092E7CC /* PeripheralViewModel.swift */; };
-		D1EDDC9D2A78DAE50092E7CC /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDDC9C2A78DAE50092E7CC /* TransferService.swift */; };
-		D1EDDC9F2A78DB0B0092E7CC /* PeripheralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDDC9E2A78DB0A0092E7CC /* PeripheralView.swift */; };
+		D1EDDCA92A7A3C720092E7CC /* PeripheralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDDCA62A7A3C720092E7CC /* PeripheralView.swift */; };
+		D1EDDCAA2A7A3C720092E7CC /* PeripheralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDDCA82A7A3C720092E7CC /* PeripheralViewModel.swift */; };
+		D1EDDCAB2A7A3C720092E7CC /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EDDCA72A7A3C720092E7CC /* TransferService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +22,9 @@
 		D1EDDC8C2A78D7C30092E7CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1EDDC8E2A78D7C90092E7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1EDDC912A78D7C90092E7CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D1EDDC982A78D80C0092E7CC /* PeripheralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewModel.swift; sourceTree = "<group>"; };
-		D1EDDC9C2A78DAE50092E7CC /* TransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
-		D1EDDC9E2A78DB0A0092E7CC /* PeripheralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralView.swift; sourceTree = "<group>"; };
+		D1EDDCA62A7A3C720092E7CC /* PeripheralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralView.swift; sourceTree = "<group>"; };
+		D1EDDCA72A7A3C720092E7CC /* TransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
+		D1EDDCA82A7A3C720092E7CC /* PeripheralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,9 +41,6 @@
 		D1EDDC7E2A78D7C30092E7CC = {
 			isa = PBXGroup;
 			children = (
-				D1EDDC9C2A78DAE50092E7CC /* TransferService.swift */,
-				D1EDDC9E2A78DB0A0092E7CC /* PeripheralView.swift */,
-				D1EDDC982A78D80C0092E7CC /* PeripheralViewModel.swift */,
 				D1EDDC892A78D7C30092E7CC /* ColorSensorPeripheral */,
 				D1EDDC882A78D7C30092E7CC /* Products */,
 			);
@@ -60,8 +57,11 @@
 		D1EDDC892A78D7C30092E7CC /* ColorSensorPeripheral */ = {
 			isa = PBXGroup;
 			children = (
-				D1EDDC8A2A78D7C30092E7CC /* ColorSensorPeripheralApp.swift */,
+				D1EDDCA72A7A3C720092E7CC /* TransferService.swift */,
+				D1EDDCA62A7A3C720092E7CC /* PeripheralView.swift */,
+				D1EDDCA82A7A3C720092E7CC /* PeripheralViewModel.swift */,
 				D1EDDC8C2A78D7C30092E7CC /* ContentView.swift */,
+				D1EDDC8A2A78D7C30092E7CC /* ColorSensorPeripheralApp.swift */,
 				D1EDDC8E2A78D7C90092E7CC /* Assets.xcassets */,
 				D1EDDC902A78D7C90092E7CC /* Preview Content */,
 			);
@@ -148,9 +148,9 @@
 			files = (
 				D1EDDC8D2A78D7C30092E7CC /* ContentView.swift in Sources */,
 				D1EDDC8B2A78D7C30092E7CC /* ColorSensorPeripheralApp.swift in Sources */,
-				D1EDDC9D2A78DAE50092E7CC /* TransferService.swift in Sources */,
-				D1EDDC9F2A78DB0B0092E7CC /* PeripheralView.swift in Sources */,
-				D1EDDC992A78D80C0092E7CC /* PeripheralViewModel.swift in Sources */,
+				D1EDDCA92A7A3C720092E7CC /* PeripheralView.swift in Sources */,
+				D1EDDCAA2A7A3C720092E7CC /* PeripheralViewModel.swift in Sources */,
+				D1EDDCAB2A7A3C720092E7CC /* TransferService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +282,7 @@
 				DEVELOPMENT_TEAM = VK2KVWWNDB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "他デバイスとの通信でBluetoothを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +312,7 @@
 				DEVELOPMENT_TEAM = VK2KVWWNDB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "他デバイスとの通信でBluetoothを使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
